@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Author:João Pedro Gabriel, Category: Dark Horror History, Title: Kall Website">
+
+        <title>Contato</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <script src="../script.js" defer></script>
+    </head>
+
+
+    <body>
+        <header class="dinamicHeader"></header><!-- Estrutura de Cabeçalho dinâmico -> Incluso no script.js -->
+
+        <section class="main_container">
+            <main>
+                <section class="container">
+                    <div class="header_container">
+                        <h1>Entrar em Contato</h1>
+                    </div>
+                    <div class="divisor_line"></div>
+                    <section class="content_container">
+                        <h1>Assunto</h1>
+                        <input type="text" id="email-subject" class="subject" placeholder="Digite seu nome e o assunto">
+                    </section>
+                    <section class="content_container">
+                        <h1>Conteúdo do Email</h1>
+                        <textarea id="email-body" class="email_content" rows="7" placeholder="Digite sua mensagem aqui..."></textarea>
+                    </section>
+
+                    <div class="dinamic_send_button">
+                        <button id="save-button">Salvar</button>
+                        <button id="send-button" target="blank" disabled>Enviar</button>
+                    </div>
+                </section>
+
+                <section class="container">
+                    <div class="header_container">
+                        <h1>Outros Canais de Contato</h1>
+                    </div>
+                    <div class="divisor_line"></div>
+                    <div class="content_container">
+                        <section class="subcontent_column_container">
+                            <section class="subcontent_grid_container">
+                                <a href="https://www.linkedin.com/in/joão-pedro-gabriel-7628b02b3"><div class="character_container">
+                                    <img src="../assets/images/linkedin_logo.svg" width="100px" height="100px" alt="Linked In Logo" loading="lazy">
+                                    <section class="character_name">
+                                        <h1>Linked In</h1>
+                                    </section>
+                                </div></a>
+                                <a href="https://github.com/joaopedrogabriel"><div class="character_container">
+                                    <img src="../assets/images/github_logo.svg" width="100px" height="100px" alt="Github Logo" id="github" loading="lazy">
+                                    <section class="character_name">
+                                        <h1>Github</h1>
+                                    </section>
+                                </div></a>
+                                <a href="https://www.instagram.com/joaogabriel_pedrobr/"><div class="character_container">
+                                    <img src="../assets/images/instagram_logo.svg" width="100px" height="100px" alt="Instagram Logo" loading="lazy">
+                                    <section class="character_name">
+                                        <h1>Instagram</h1>
+                                    </section>
+                                </div></a>
+                            </section>
+                        </section>
+                    </div>
+                </section>
+            </main>
+
+            <aside>
+                <section class="container">
+                    <section class="header_container">
+                        <h1>Sobre a Empresa</h1>
+                    </section>
+                    <div class="divisor_line"></div>
+                    <section class="subcontent_image_container">
+                        <img src="../assets/images/Logo_KallFullstackDevelopment.svg" width="200px" height="200px" alt="Author_Photo" loading="lazy">
+                    </section>
+                    <section class="content_container">
+                        <h1>Desenvolvimento</h1> <p>Kall - FullStack Development</p>
+                    </section>
+                    <section class="content_container">
+                        <h1>Mídia e Conteúdo Digital</h1> <p>Kall - Productions</p>
+                    </section>
+                    <section class="subcontent_column_container">
+                        <section class="subcontent_header_grid_container">
+                            <h1>Serviços</h1>
+                        </section>
+                        <section class="subcontent_grid_container">
+                            <div>Desenvolvimento</div>
+                            <div>Literatura e Produções</div>
+                            <div>Edição de Fotos e Vídeos</div>
+                            <div>Web Design</div>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+        </section>
+        
+
+        <script>
+            const levelBuild = 1;
+
+            // Função para construir a página dinamicamente
+            document.addEventListener("DOMContentLoaded", () => {
+                build(levelBuild); // Chamada da função build com o parâmetro inicial
+            });
+
+            // Lógica para o formulário de contato
+            const saveButton = document.getElementById("save-button");
+            const sendButton = document.getElementById("send-button");
+            const emailSubject = document.getElementById('email-subject');
+            const emailBody = document.getElementById('email-body');
+
+            // Verifica se os elementos do formulário de contato existem na página atual
+            if (saveButton && sendButton && emailSubject && emailBody) {
+                let mailtoUrl = ''; // Armazena a URL do mailto
+
+                saveButton.addEventListener('click', () => {
+                    const subjectValue = emailSubject.value.trim();
+                    const bodyValue = emailBody.value.trim();
+        
+                    // Verifica se ambos os campos têm conteúdo
+                    if (subjectValue && bodyValue) {
+                        const targetEmail = 'kall.fsdev@gmail.com'; 
+        
+                        const subject = encodeURIComponent(subjectValue);
+                        const body = encodeURIComponent(bodyValue);
+                        
+                        // Prepara e armazena a URL
+                        mailtoUrl = `mailto:${targetEmail}?subject=ClientSupport:${subject}&cc=kall.fsdev@gmail.com&body=${body}`;
+                        sendButton.disabled = false;
+        
+                        alert('Dados salvos! Agora você pode clicar em "Enviar".');
+                        console.log('Dados do e-mail preparados. O botão de envio foi habilitado.');
+                    } else {
+                        // Informa o usuário que os campos são obrigatórios
+                        alert('Por favor, preencha o assunto e o conteúdo do e-mail antes de salvar.');
+                    }
+                });
+
+                sendButton.addEventListener('click', () => {
+                    // Se o botão estiver habilitado, dispara o e-mail
+                    if (!sendButton.disabled) {
+                        window.location.href = mailtoUrl;
+                        alert('Continue na sua caixa de Email...');
+                    }
+                });
+            }
+        </script>
+    </body>
+    <footer class="dinamicFooter"></footer><!-- Estrutura de Rodapé dinâmico -> Incluso no script.js -->
+
+</html>

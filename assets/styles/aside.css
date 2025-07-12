@@ -1,0 +1,91 @@
+aside {
+    /* A propriedade flex: 1 faz com que o aside cresça para preencher o espaço restante */
+    flex: 1;
+    /* Uma largura mínima para evitar que o conteúdo fique muito espremido */
+    min-width: 320px;
+}
+
+aside img {
+    /* A imagem agora é responsiva, mas não passará de 200px */
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Garante que a imagem permaneça um círculo perfeito */
+    border: 0px solid transparent;
+    border-radius: 1000px;
+}
+
+aside .subcontent_image_container {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para o contêiner principal que envolve o cabeçalho e a grid */
+aside .subcontent_column_container {
+    padding: 15px; /* Aumentei um pouco para melhor espaçamento */
+    background-color: rgb(30, 30, 48);
+    border: 0px solid transparent; /* Pode ser removido se não houver borda */
+    border-radius: 8px; /* Borda um pouco mais suave */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 15px; /* Aumentei o espaçamento entre o título e a grid */
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1); /* Um toque a mais para destacar */
+}
+
+/* Estilo para o título */
+.subcontent_header_grid_container h1 {
+    font-size: 1.5em; /* Tamanho do título */
+    color: cyan;
+    margin: 0; /* Remove margem padrão do h1 */
+}
+
+.subcontent_container {
+    padding: 5px;
+    background-color: rgb(30, 30, 48);
+    border: 0px solid transparent;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subcontent_container h1 {
+    font-size: 1.5em; /* Tamanho do título */
+    color: lightgray;
+    margin: 0; /* Remove margem padrão do h1 */
+}
+
+.subcontent_container p {
+    font-size: 1.2em;
+    color: darkcyan;
+}
+
+/* ESTA É A PARTE MAIS IMPORTANTE: O CONTÊINER DA GRID */
+.subcontent_grid_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-rows: auto;
+    gap: 10px;
+    width: 100%;
+}
+
+.subcontent_grid_container div {
+    /* Estilos para os itens da grid, como padding, background, border-radius, etc. */
+    padding: 4px 15px;
+    background-color: #252525;
+    color: white;
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h3 {
+    font-size: small;
+}

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Author:João Pedro Gabriel, Category: Dark Horror History, Title: Kall Website">
+
+        <title>Página Inicial</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+
+    </head>
+
+
+    <body>
+        <header class="dinamicHeader"></header><!-- Estrutura de Cabeçalho dinâmico -> Incluso no script.js -->
+
+        <section class="main_container">    
+            <main>
+                <section class="container">
+                    <div class="header_container">
+                        <h1>A Kall Productions é uma empresa criada com intuito de divulgar 
+                            os conteúdos postados referentes a "Dark Horror Histories" desenvolvidos 
+                            pela <a href="https:kallfsd.github.io/kallenterprise">Kall Enterprise ©</a>.</h1>
+                    </div>
+                </section>
+                
+                <section class="container">
+                    <div class="header_container">
+                        <h1>Produções</h1>
+                        <a href="pages/productions/index.html">
+                            <button>Veja as Produções</button>
+                        </a>
+                    </div>
+                    <div class="divisor_line"></div>
+                    <div class="content_container stack">
+                        <p>O Homem do Machado</p>
+                        <a href="pages/productions/hm/index.html">
+                            <button>Ver Produção</button>
+                        </a>
+                    </div>
+                </section>
+
+                <section class="container">
+                    <div class="header_container">
+                        <h1>Canais de Contato</h1>
+                        <a href="pages/support_contact.html">
+                            <button>Envie-nos um Email</button>
+                        </a>
+                    </div>
+                    <div class="divisor_line"></div>
+                    <div class="content_container">
+                        <section class="subcontent_column_container">
+                            <section class="subcontent_grid_container">
+                                <a href="https://www.linkedin.com/in/joão-pedro-gabriel-7628b02b3"><div class="character_container">
+                                    <img src="assets/images/linkedin_logo.svg" width="100px" height="100px" alt="Linked In Logo" loading="lazy">
+                                    <section class="character_name">
+                                        <h1>Linked In</h1>
+                                    </section>
+                                </div></a>
+                                <a href="https://github.com/joaopedrogabriel"><div class="character_container">
+                                    <img src="assets/images/github_logo.svg" width="100px" height="100px" alt="Github Logo" id="github" loading="lazy">
+                                    <section class="character_name">
+                                        <h1>Github</h1>
+                                    </section>
+                                </div></a>
+                                <a href="https://www.instagram.com/joaogabriel_pedrobr/"><div class="character_container">
+                                    <img src="assets/images/instagram_logo.svg" width="100px" height="100px" alt="Instagram Logo" loading="lazy">
+                                    <section class="character_name">
+                                        <h1>Instagram</h1>
+                                    </section>
+                                </div></a>
+                            </section>
+                        </section>
+                    </div>
+                </section>
+            </main>
+
+            <aside>
+                <section class="container">
+                    <section class="header_container">
+                        <h1>Sobre a Empresa</h1>
+                    </section>
+                    <div class="divisor_line"></div>
+                    <section class="subcontent_image_container">
+                        <img src="assets/images/Logo_KallProductions.svg" width="200px" height="200px" alt="Author_Photo" loading="lazy">
+                    </section>
+                    <section class="content_container">
+                        <h1>Desenvolvimento</h1> <p>Kall - FullStack Development</p>
+                    </section>
+                    <section class="content_container">
+                        <h1>Mídia e Conteúdo Digital</h1> <p>Kall - Productions</p>
+                    </section>
+                    <section class="subcontent_column_container">
+                        <section class="subcontent_header_grid_container">
+                            <h1>Serviços</h1>
+                        </section>
+                        <section class="subcontent_grid_container">
+                            <div><h3>Desenvolvimento</h3></div>
+                            <div><h3>Literatura e Produções</h3></div>
+                            <div><h3>Edição de Fotos e Vídeos</h3></div>
+                            <div><h3>Web Design</h3></div>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+        </section>
+        
+
+        <script defer>
+            const levelBuild = 0;
+
+            // Função para construir a página dinamicamente
+            document.addEventListener("DOMContentLoaded", () => {
+                build(levelBuild); // Chamada da função build com o parâmetro inicial
+            });
+        </script>
+    </body>
+    <footer class="dinamicFooter"></footer><!-- Estrutura de Rodapé dinâmico -> Incluso no script.js -->
+
+</html>

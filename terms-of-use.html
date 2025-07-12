@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Author:João Pedro Gabriel, Category: Dark Horror History, Title: Kall Website">
+
+        <title>Página Inicial</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+
+    </head>
+
+
+    <body>
+        <header class="dinamicHeader"></header><!-- Estrutura de Cabeçalho dinâmico -> Incluso no script.js -->
+
+
+        <section class="main_container">    
+            <main>
+                <section class="container">
+                    <div class="header_container">
+                        <h1>Termos de Uso</h1>
+                    </div>
+                    <div class="divisor_line"></div>
+                    <div class="content_container">
+
+                        <div class="text-license_container">
+                            <h1>Você é livre para:</h1>
+
+                                <p><b>Compartilhar</b> - copiar e redistribuir o material em qualquer meio ou formato para qualquer finalidade, mesmo comercialmente.</p>
+
+                                <p><b>Adaptar</b> - remixar, transformar e desenvolver o material para qualquer propósito, até mesmo comercial.</p>
+
+                                <p>O licenciante não pode revogar essas liberdades, desde que você siga os termos da licença.</p>
+
+                            <h1>Nos seguintes termos:</h1>
+
+                                <p><b>Atribuição</b> - Você deve dar o devido crédito , fornecer um link para a licença e indicar se foram feitas alterações . Você pode fazê-lo de qualquer maneira razoável, mas não de forma que sugira que o licenciante endossa você ou seu uso.</p>
+                                
+                                <p><b>Sem restrições adicionais</b> - Você não pode aplicar termos legais ou medidas tecnológicas que restrinjam legalmente outros de fazerem qualquer coisa que a licença permita.</p>
+
+                        </div>
+
+
+                        <p>Para saber mais sobre a licença de uso, visite o <a id="cc-link" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons CC-BY-4.0</a></p>
+                    </div>
+                </section>
+            </main>
+
+            <aside>
+                <section class="container">
+                    <section class="header_container">
+                        <h1>Sobre o Autor</h1>
+                    </section>
+                    <div class="divisor_line"></div>
+                    <section class="subcontent_image_container">
+                        <img src="assets/images/AuthorPicture.svg" width="200px" height="200px" alt="Author_Photo" loading="lazy">
+                    </section>
+                    <section class="subcontent_container">
+                        <h1>Nome:</h1> <p>João Pedro Gabriel</p>
+                    </section>
+                    <section class="subcontent_container">
+                        <h1>Pseudônimo:</h1> <p>Kalleby7034</p>
+                    </section>
+                    <section class="subcontent_column_container">
+                        <section class="subcontent_header_grid_container">
+                            <h1>Hobbies/Habilidades:</h1>
+                        </section>
+                        <section class="subcontent_grid_container">
+                            <div>Programador</div>
+                            <div>Escritor</div>
+                            <div>Criador de Conteúdo</div>
+                            <div>Web Designer</div>
+                        </section>
+                    </section>
+                </section>
+            </aside>
+        </section>
+        
+
+        <script defer>
+            //Variável que define localização de arquivo na estrutura de diretório do site
+            const levelBuild = 0;
+
+            // Função para construir a página dinamicamente
+            document.addEventListener("DOMContentLoaded", () => {
+                build(levelBuild); // Chamada da função build com o parâmetro para construir página.
+            });
+        </script>
+    </body>
+    <footer class="dinamicFooter"></footer><!-- Estrutura de Rodapé dinâmico -> Incluso no script.js -->
+
+</html>

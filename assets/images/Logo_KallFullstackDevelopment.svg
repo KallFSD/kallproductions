@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1080"
+   height="1080"
+   viewBox="0 0 1080 1080"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="Logo_KallFullstackDevelopment.svg"
+   inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="px"
+     inkscape:zoom="0.71574074"
+     inkscape:cx="540"
+     inkscape:cy="540"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer2" />
+  <defs
+     id="defs1">
+    <linearGradient
+       id="linearGradient19"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#8d8d8d;stop-opacity:1;"
+         offset="0"
+         id="stop22" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.47333336"
+         id="stop20" />
+      <stop
+         style="stop-color:#8d8d8d;stop-opacity:1;"
+         offset="1"
+         id="stop21" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient15"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#7d7d7d;stop-opacity:0.75;"
+         offset="0"
+         id="stop16" />
+      <stop
+         style="stop-color:#ababab;stop-opacity:0.75;"
+         offset="0.22444445"
+         id="stop17" />
+      <stop
+         style="stop-color:#4c4c4c;stop-opacity:0.75;"
+         offset="0.84222227"
+         id="stop18" />
+      <stop
+         style="stop-color:#3d3d3d;stop-opacity:0.75;"
+         offset="1"
+         id="stop19" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient1"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#04aee2;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#821175;stop-opacity:1;"
+         offset="0.23999999"
+         id="stop2" />
+      <stop
+         style="stop-color:#e42461;stop-opacity:1;"
+         offset="0.38444445"
+         id="stop3" />
+      <stop
+         style="stop-color:#a963ec;stop-opacity:1;"
+         offset="0.50222224"
+         id="stop4" />
+      <stop
+         style="stop-color:#421bd3;stop-opacity:1;"
+         offset="0.74444449"
+         id="stop5" />
+      <stop
+         style="stop-color:#0ed9f7;stop-opacity:1;"
+         offset="0.89333332"
+         id="stop7" />
+      <stop
+         style="stop-color:#95ebf3;stop-opacity:1;"
+         offset="1"
+         id="stop6" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient9"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.19111112"
+         id="stop10" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.88235295;"
+         offset="0.53777778"
+         id="stop12" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0.50495052;"
+         offset="0.62444443"
+         id="stop13" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:0;"
+         offset="0.75111115"
+         id="stop11" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient9"
+       id="linearGradient11"
+       x1="160.4622"
+       y1="577.01868"
+       x2="305.97284"
+       y2="722.5293"
+       gradientUnits="userSpaceOnUse"
+       spreadMethod="pad" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter13"
+       x="-0.18667953"
+       y="-0.14939976"
+       width="1.3733591"
+       height="1.2987995">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="16.006439"
+         id="feGaussianBlur13" />
+    </filter>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1"
+       id="linearGradient2"
+       x1="217.64088"
+       y1="702.6893"
+       x2="1035.7298"
+       y2="702.6893"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-97.80078,61.474774)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient15"
+       id="linearGradient17"
+       x1="192.89471"
+       y1="126.33611"
+       x2="887.10498"
+       y2="953.6637"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient19"
+       id="linearGradient21"
+       x1="249.91685"
+       y1="465.00803"
+       x2="807.85223"
+       y2="1063.3204"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Fundo">
+    <rect
+       style="fill:url(#linearGradient17);fill-opacity:1"
+       id="rect7"
+       width="1080"
+       height="1080"
+       x="0"
+       y="0" />
+  </g>
+  <g
+     inkscape:label="1º Plano"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g7"
+       transform="matrix(1.0103319,0,0,1.0020835,7.3796694,-36.860643)">
+      <g
+         id="g52"
+         transform="matrix(1.0740637,0,0,1.1003225,-2.0958272,-180.09847)">
+        <path
+           sodipodi:type="star"
+           style="fill:#b3b3b3"
+           id="path4"
+           inkscape:flatsided="false"
+           sodipodi:sides="3"
+           sodipodi:cx="238.91331"
+           sodipodi:cy="536.50714"
+           sodipodi:r1="172.66583"
+           sodipodi:r2="86.332924"
+           sodipodi:arg1="-1.5707963"
+           sodipodi:arg2="-0.52359878"
+           inkscape:rounded="0"
+           inkscape:randomized="0"
+           d="m 238.91332,363.84131 74.7665,129.49937 74.76649,129.49938 -149.53299,10e-6 -149.533005,-2e-5 74.766495,-129.49937 z"
+           inkscape:transform-center-y="-43.166461"
+           transform="translate(41.0261,157.52922)" />
+        <path
+           style="opacity:0.48;fill:url(#linearGradient11);fill-opacity:1;stroke-width:0.687882;filter:url(#filter13)"
+           d="M 279.2862,521.20803 130.32608,778.33999 180.39005,777.70911 336.10897,617.80924 Z"
+           id="path22-5"
+           sodipodi:nodetypes="ccccc" />
+        <path
+           style="display:inline;fill:#b3b3b3"
+           d="M 280,504.5 94.520872,825.75927 330.89007,589.39007 Z"
+           id="path22" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:192px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;opacity:1;fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:0"
+         x="558.5014"
+         y="650.35046"
+         id="text13"
+         inkscape:label="text13"><tspan
+           sodipodi:role="line"
+           id="tspan13"
+           x="558.5014"
+           y="650.35046"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:192px;font-family:Constantia;-inkscape-font-specification:'Constantia Bold Italic';fill:#000000;fill-opacity:1;stroke:#ffffff;stroke-opacity:0">Kall</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:74.6667px;text-align:start;writing-mode:lr-tb;direction:ltr;text-anchor:start;fill:#222222;stroke:none;fill-opacity:1;stroke-opacity:0"
+         x="117.36093"
+         y="785.20056"
+         id="text1"><tspan
+           sodipodi:role="line"
+           id="tspan1"
+           x="117.36093"
+           y="785.20056"
+           style="font-size:74.6667px;fill:#222222;fill-opacity:1;stroke:none;stroke-opacity:0">fullstack development</tspan></text>
+    </g>
+  </g>
+</svg>

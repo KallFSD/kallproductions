@@ -1,0 +1,173 @@
+header {
+    margin: 2vh 1.5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+header section {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #020024;
+    background: linear-gradient(90deg,
+                                rgba(2, 0, 36, 1) 0%, 
+                                rgba(9, 9, 121, 1) 75%, 
+                                rgba(0, 212, 255, 1) 100%);
+    border: 0px solid transparent;
+    border-radius: 100px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border: 0px solid transparent;
+    border-radius: 100px;
+    transform: scale(1);
+}
+
+.titlebar {
+    color: rgba(0, 212, 255, 1);
+    font-size: large;
+    display: flex;
+    gap: 10px;
+}
+
+.titlebar p {
+    font-size: 1.5em;
+}
+
+.user_configuration {
+    width: 50px;
+    height: 50px;
+    background-color: lightgray;
+    border: 0px solid transparent;
+    border-radius: 100px;
+}
+
+nav {
+    margin: 5px 10px;
+    padding: 10px;
+    background-color: rgb(30, 30, 95);
+    border: 0px solid transparent;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    margin: 0px;
+    padding: 0px;
+}
+
+.headerNavigation {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav-left-group {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+li a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+li a:hover {
+    color: cyan;
+}
+
+li a:active {
+    color: cadetblue;
+}
+
+li a img {
+    width: 25px;
+    height: 25px;
+    color: black;
+}
+
+.expandMenu button {
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0px solid transparent;
+    background-color: rgb(30, 30, 95);
+}
+
+button img {
+    width: 25px;
+    height: 25px;
+}
+
+.hidedMenu {
+    display: none;
+}
+
+.showedMenu {
+    ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: lightgray;
+    }
+
+    li a:hover {
+        color: cyan;
+    }
+
+    li a:active {
+        color: cadetblue;
+    }
+}
+
+
+/* Adicione este código ao seu arquivo header.css */
+
+.large-device-layout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Alinha os itens verticalmente, o que é bom para navbars */
+  width: 100%;
+}
+
+/* @media screen and (max-width: 768px) {
+            ul {
+                display: none;
+            }
+
+            ul::after {
+                display: flex;
+            }
+        } */
